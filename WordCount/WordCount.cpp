@@ -31,7 +31,7 @@ int littercount()
 {
 	int ch;
 	int litter_num = 0;
-	char filename[] = "G://C#//WordCount//WordCount.txt";
+	char filename[] = "G://GitBase//WordCount//WordCount.txt";
 	FILE* fp;
 	if ((fp = fopen(filename, "r")) == NULL)//检验文本文档是否存在
 	{
